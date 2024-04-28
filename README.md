@@ -1,6 +1,6 @@
 <h2>Pintos Project</h2>
 2022-Fall Sogang Univ. 운영체제(CSE4070) 
-<h2>Project1 User Program(1)</h2>
+<h2>Project1. User Program(1)</h2>
 User program이 Pintos 위에서 정상적으로 구동되도록 하기 위한 기능을 구현
 -Argument Passing
 입력으로 들어온 command line에서 argument들을 parsing하고 80x86 calling convention에 맞춰 stack에 push
@@ -11,7 +11,7 @@ System call halt, exit, exec,  wait, read, write의 기능 구현
 Read와 write은 각각 standard input, standard output에 대해서만 구현
 additional system call로 fibonacci와 max_of_four_int를 구현
 
-<h2>Project2 User Program(2)</h2>
+<h2>Project2. User Program(2)</h2>
 file system과 관련된 system call들을 구현하여 pintos에서 user program을 완성
 
 -File Descriptor
@@ -25,7 +25,7 @@ read STDIN, write STDOUT과 더불어 File system과 관련된 모든 system cal
 file system에서의 synchronization 기능 구현
 코드의 critical section을 보호하고 각 프로세스가 shared data에 독점적으로 접근하도록 함
 
-<h2>Threads</h2>
+<h2>Project3. Threads</h2>
 -Alarm clock
 기존 Pintos에서 Busy waiting으로 구현된 Alarm 기능을 효율적으로 개선
 일어날 시간이 되지 않은 스레드를 Block 시키는 방법으로 Sleep과 Wake up 기능을 구현 
