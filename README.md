@@ -22,6 +22,7 @@ additional system call로 fibonacci와 max_of_four_int를 구현
 
 
 <h2>Project2. User Program(2)</h2>
+
 file system과 관련된 system call들을 구현하여 pintos에서 user program을 완성
 
 -File Descriptor
@@ -46,6 +47,7 @@ file system에서의 synchronization 기능 구현
 
 
 <h2>Project3. Threads</h2>
+
 -Alarm clock
 
 기존 Pintos에서 Busy waiting으로 구현된 Alarm 기능을 효율적으로 개선
